@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "fizzbuzz",
+  "description": "A basic TDD app for testing pipelines",
+  "version": "1.0.0",
+  "main": "jest.config.js",
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterling000/fizzbuzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterling000/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/sterling000/fizzbuzz#readme"
+}
