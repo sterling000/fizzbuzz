@@ -10,7 +10,7 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm install
-            - run: jest --ci --reporters=default --reporters=jest-junit
+            - run: npm test
       - store_test_results:
           path: .
 workflows:
