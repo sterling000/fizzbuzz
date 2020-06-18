@@ -6,10 +6,12 @@
   "description": "A basic TDD app for testing pipelines",
   "version": "1.0.0",
   "main": "jest.config.js",
-  "dependencies": {
-    "jest": "^26.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1",
+    "jest-junit": "^10.0.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sterling000/fizzbuzz.git"
@@ -19,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/sterling000/fizzbuzz/issues"
   },
-  "homepage": "https://github.com/sterling000/fizzbuzz#readme"
+  "homepage": "https://github.com/sterling000/fizzbuzz#readme",
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "outputDirectory": "./test-results",
+    "outputName": "junit.xml",
+    "uniqueOutputName": "false",
+    "classNameTemplate": "{classname}-{title}",
+    "titleTemplate": "{classname}-{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
+  }
 }
