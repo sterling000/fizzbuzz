@@ -24,7 +24,7 @@
   "homepage": "https://github.com/sterling000/fizzbuzz#readme",
   "jest-junit": {
     "suiteName": "jest tests",
-    "outputDirectory": ".",
+    "outputDirectory": "./test-results",
     "outputName": "junit.xml",
     "uniqueOutputName": "false",
     "classNameTemplate": "{classname}-{title}",

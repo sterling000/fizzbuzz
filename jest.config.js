@@ -97,7 +97,6 @@ module.exports = {
   // reporters: undefined,
   
   "reporters": [ "default", "jest-junit" ],
-  
 
   // Automatically reset mock state between every test
   // resetMocks: false,
